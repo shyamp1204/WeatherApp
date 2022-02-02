@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="app-wrap">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <main>
+      <section class="location">
+        <img src="source/sun_icon.jpg" class="weather_icons"/>
+        <div style="float:right;" style="margin-left: 40px;">
+            <div class="city" style="margin-top: 10px;">Austin, TX</div>
+            <div class="date">Feburary 2, 2022</div>
+            <div class="current">
+                <div class="temp">65<span>°F</span></div>
+                <div class="weather" style = "margin-bottom: 5px;">Sunny</div>
+              </div>
+        </div>
+      </section>
+      <section >
+        <div class="app">
+            <ul class="hs full">
+              <li class="item"><p>Monday</p><img src="source/cloud_icon.jpg" class="weather_cards"/><p>60°F  50°F</p></li>
+              <li class="item"><p>Tuesday</p><img src="source/rain_icon.png" class="weather_cards"/><p>70°F  53°F</p></li>
+              <li class="item"><p>Wednsday</p><img src="source/sun_icon.jpg" class="weather_cards"/><p>73°F  56°F</p></li>
+              <li class="item"><p>Thursday</p><img src="source/snow_icon.png" class="weather_cards"/><p>25°F  20°F</p></li>
+              <li class="item"><p>Friday</p><img src="source/cloud_icon.jpg" class="weather_cards"/><p>60°F  50°F</p></li>
+              <li class="item"><p>Saturday</p><a href="detailed_page.html"><img src="source/rain_icon.png" class="weather_cards"/></a><p>70°F  53°F</p></li>
+              <li class="item"><p>Sunday</p><img src="source/sun_icon.jpg" class="weather_cards"/><p>73°F  56°F</p></li>
+              <li class="item"><p>Monday</p><img src="source/cloud_icon.jpg" class="weather_cards"/><p>60°F  50°F</p></li>
+              <li class="item"><p>Tuesday</p><img src="source/rain_icon.png" class="weather_cards"/><p>70°F  53°F</p></li>
+              <li class="item"><p>Wednsday</p><img src="source/sun_icon.jpg" class="weather_cards"/><p>73°F  56°F</p></li>
+              <li class="item"><p>Thursday</p><img src="source/snow_icon.png" class="weather_cards"/><p>25°F  20°F</p></li>
+              <li class="item"><p>Friday</p><img src="source/cloud_icon.jpg" class="weather_cards"/><p>60°F  50°F</p></li>
+              <li class="item"><p>Saturday</p><img src="source/rain_icon.png" class="weather_cards"/><p>70°F  53°F</p></li>
+              <li class="item"><p>Sunday</p><img src="source/sun_icon.jpg" class="weather_cards"/><p>73°F  56°F</p></li>
+            </ul>
+      </section>
+      <section>
+        <h2 style="margin-bottom:5px;">Select Dates of Your Trip</h1>
+        <input type="date">
+        <input type="date">
+      </section>
+      <a href="selected_dates.html"><button style="margin-top: 5px;">Submit</button></a>
+      
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
